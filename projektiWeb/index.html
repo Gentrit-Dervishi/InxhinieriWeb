@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Informatics College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, UBT, IT College, Prishtina, college in Prishtina, kosovoIT">
+ <meta name="author" content="Gentrit Dervishi">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">Download</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="login.html">Login</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/a.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/b.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/c.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">ICP </a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by UBT</p>
+			</footer>
+			<content>
+<p>UBT aspiron te jete oferta më e mirë për arsim të lartë, arsim professional,
+     kërkim shkencor dhe mësim gjatë gjithë jetës në Evropën Jug-Lindore.<br>
+      Aktualisht është lider në Kosovë në ofertën arsimore, cilësisë, 
+      inovacion dhe teknologji dhe mbetet destinacioni primar në biznes, teknologji dhe inxhinieri.
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Pathway Programme</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by UBT</p>
+			</footer>
+			<content>
+<p>UBT  ofron 29 programe studimi të nivelit bachelor dhe master të ofruara nga një kuadër prej 500 profesorë
+     të edukuar jashtë vendit dhe kuadër ndërkombëtar.
+     Programet e UBT zbatohen në mjediset më të avancuara për mësimdhënie dhe mësimnxënie në 
+     Prishtinë, Lipjan, Ferizaj dhe Prizren. Kampusi i Inovacionit është më i madhi i këtij lloji në Kosovoë
+      me rreth 40 laboratore, biblotekën më të madhe në Kosovë dhe është anëtari i vetëm Kosovar në 
+      Asociacionet e Parqeve Botërore të inovacionit.
+       Oferta arsimore dhe infrastrukturore e UBT është e vetmja e akredituar ne nivel kombetar dhe nderkombetar 
+       dhe e certifikuar për ekselence (EFQM) dhe ISO standarde.
+We focus in giving you the best.
+
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with Informatics</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with Informatics</p>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://www.ubt-uni.net/sq/ballina/">Gentrit Dervishi & Florian Sylejmani</a> </p>
+	<center>
+	<a href="https://www.facebook.com/UniversitetiUBT/">Facebook</a>
+	<a href="https://twitter.com/ubteducation?lang=en">Twitter</a>
+	<a href="https://www.youtube.com/user/UBTPRISHTINA">Youtube</a>
+	</center>
+</footer>
+
+</body>
+</html>
